@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/baseline_search_24"
+            android:title="@string/menu_search" />
+    </group>
+
+    <item
+        android:id="@+id/nav_books"
+        android:title="@string/book">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_insert_book"
+                    android:icon="@drawable/baseline_add_box_24"
+                    android:title="@string/menu_insert" />
+                <item
+                    android:id="@+id/nav_update_book"
+                    android:icon="@drawable/baseline_update_24"
+                    android:title="@string/menu_update" />
+                <item
+                    android:id="@+id/nav_delete_book"
+                    android:icon="@drawable/baseline_delete_24"
+                    android:title="@string/menu_delete" />
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/nav_members"
+        android:title="@string/member">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_insert_member"
+                    android:icon="@drawable/baseline_add_box_24"
+                    android:title="@string/menu_insert" />
+                <item
+                    android:id="@+id/nav_update_member"
+                    android:icon="@drawable/baseline_update_24"
+                    android:title="@string/menu_update" />
+                <item
+                    android:id="@+id/nav_delete_member"
+                    android:icon="@drawable/baseline_delete_24"
+                    android:title="@string/menu_delete" />
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/nav_sections"
+        android:title="@string/library_section">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_insert_section"
+                    android:icon="@drawable/baseline_add_box_24"
+                    android:title="@string/menu_insert" />
+                <item
+                    android:id="@+id/nav_update_section"
+                    android:icon="@drawable/baseline_update_24"
+                    android:title="@string/menu_update" />
+                <item
+                    android:id="@+id/nav_delete_section"
+                    android:icon="@drawable/baseline_delete_24"
+                    android:title="@string/menu_delete" />
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/nav_loans"
+        android:title="@string/loan">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_insert_loan"
+                    android:icon="@drawable/baseline_add_box_24"
+                    android:title="@string/menu_insert" />
+                <item
+                    android:id="@+id/nav_update_loan"
+                    android:icon="@drawable/baseline_update_24"
+                    android:title="@string/menu_update" />
+                <item
+                    android:id="@+id/nav_delete_loan"
+                    android:icon="@drawable/baseline_delete_24"
+                    android:title="@string/menu_delete" />
+            </group>
+        </menu>
+    </item>
+
+
+</menu>
